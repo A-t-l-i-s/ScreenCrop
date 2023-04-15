@@ -2,12 +2,13 @@ import sys
 import os
 import ctypes
 import ntpath
+import keyboard
 
-from PySide6.QtGui import *
-from PySide6.QtCore import *
-from PySide6.QtWidgets import *
+from PyQt6.QtGui import *
+from PyQt6.QtCore import *
+from PyQt6.QtWidgets import *
 
 
 
-app=QApplication([])
+Application=QApplication([])
 
