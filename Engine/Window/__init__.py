@@ -1,5 +1,4 @@
 from engine.require import *
-from engine.options import *
 
 from .timerEvent import *
 from .paintEvent import *
@@ -8,25 +7,15 @@ from .paintEvent import *
 
 
 
-__all__=["Window"]
+__all__ = ("Window",)
 
 
 
 
 
 class Window(QMainWindow):
-
-
-
-	timerEvent=timerEvent
-	paintEvent=paintEvent
-
-
-
-	MODE_HIDDEN=0
-	MODE_SCREENSHOT=1
-	MODE_EDIT=2
-	MODE_DRAW=3
+	timerEvent = timerEvent
+	paintEvent = paintEvent
 
 
 
